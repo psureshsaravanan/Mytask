@@ -24,7 +24,7 @@ public class TestBase {
 		
 		try{
 			prop=new Properties();
-			FileInputStream fii=new FileInputStream("C:\\Users\\Elcot\\workspace\\tready\\src\\config\\property\\Config.property");
+			FileInputStream fii=new FileInputStream("C:\\Users\\Elcot\\git\\Mytask\\tready\\src\\config\\property\\Config.property");
 			
 					prop.load(fii);
 		}

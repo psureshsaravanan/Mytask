@@ -21,13 +21,13 @@ login=new Loginpage();
 	
 	@Test
 	public void LoginTest(){
-		boolean flag=login.username.isDisplayed();
-		System.out.println(flag);
-//		login.username.click();
-//		login.username.sendKeys("admin");//prop.getProperty("username")
-//		login.password.click();
-//		login.password.sendKeys(prop.getProperty("password"));
-//		login.LoginButton.click();
+		
+		
+		
+login.username.sendKeys(prop.getProperty("username"));
+		
+		login.password.sendKeys(prop.getProperty("password"));
+		login.LoginButton.click();
 	}
 	}
 

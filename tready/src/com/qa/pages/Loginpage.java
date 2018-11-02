@@ -8,9 +8,11 @@ import org.openqa.selenium.support.PageFactory;
 import com.qa.testbase.TestBase;
 
 public class Loginpage extends TestBase {
+	
+	//
 
-	@FindBy(xpath="//td/input[contains(@name,'lgnDMS$UserName')]") public WebElement username;
-	@FindBy(xpath="//input[@id='lgnDMS_Password']") public WebElement password;
+	@FindBy(xpath="//*[@id='lgnDMS_Div6']/table/tbody/tr[1]/td/input[2]") public WebElement username;
+	@FindBy(xpath="//*[@id='lgnDMS_Div6']/table/tbody/tr[2]/td/input[2]") public WebElement password;
 	@FindBy(id="ibtnLogin") public WebElement LoginButton;
 
 	
